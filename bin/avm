@@ -341,7 +341,7 @@ display_latest_version() {
 }
 
 display_available_versions() {
-    npm show appium versions
+    npm show appium versions --json
 }
 
 #
